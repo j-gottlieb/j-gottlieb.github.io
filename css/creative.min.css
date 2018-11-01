@@ -13,9 +13,78 @@
    border-radius: 20px;
  }
 
+ .project1, .project2 {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+  border-radius: 10px;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.project1:hover .image {
+  opacity: 0.2;
+}
+
+.project1:hover .middle {
+  opacity: 1;
+}
+
+.project2:hover .image {
+  opacity: 0.2;
+}
+
+.project2:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  border-radius: 8px;
+  background-color: rgb(9, 34, 73, .9);
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.contact {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.colored {
+  font-size: 60px;
+}
+
 @media (min-width: 992px) {
   .overlay{
     height: 70%;
     margin-top: 125px;
   }
 }
+
+/* @media (max-width: 992px) {
+  .fas {
+    display: none;
+  }
+
+  .colored {
+    font-size: 30px;
+  }
+} */
