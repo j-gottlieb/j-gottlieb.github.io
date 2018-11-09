@@ -13,7 +13,19 @@
    border-radius: 20px;
  }
 
+ .projects {
+   padding-bottom: 30px;
+   background-color: #79b5f2;
+ }
+
+ .eachproject {
+   width: 28%;
+   background: white;
+   margin: 20px;
+ }
+
  .project1, .project2 {
+   padding: 15px;
     position: relative;
     width: 50%;
 }
@@ -29,6 +41,8 @@
 }
 
 .middle {
+  width: 100%;
+  height: 100%;
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -40,7 +54,7 @@
 }
 
 .project1:hover .image {
-  opacity: 0.2;
+  opacity: 0.0;
 }
 
 .project1:hover .middle {
@@ -48,7 +62,7 @@
 }
 
 .project2:hover .image {
-  opacity: 0.2;
+  opacity: 0.0;
 }
 
 .project2:hover .middle {
@@ -57,8 +71,8 @@
 
 .text {
   border-radius: 8px;
-  background-color: rgb(9, 34, 73, .9);
-  color: white;
+  background-color: rgb(255,255,255);
+  color: rgb(9, 34, 73);;
   font-size: 16px;
   padding: 16px 32px;
 }
@@ -79,12 +93,7 @@
   }
 }
 
-/* @media (max-width: 992px) {
-  .fas {
-    display: none;
-  }
-
-  .colored {
-    font-size: 30px;
-  }
-} */
+.icons:hover {
+  transition: all 0.3s ease;
+  opacity: .7;
+}
