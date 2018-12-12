@@ -18,6 +18,10 @@
    background-color: #79b5f2;
  }
 
+ .about {
+   padding: 75px 40px 75px 40px;
+ }
+
  .eachproject {
    width: 28%;
    background: white;
