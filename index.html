@@ -202,75 +202,112 @@
         </div>
       </div>
       <div class="col">
-        <p class="text-center">Please use dummy credentials when logging in. email: j@j password: j</p>
+        <p class="text-center">Please note:</p>
+        <p class="text-center">These sites are not secure - use dummy credentials to sign up.</p>
+        <p class="text-center">Allow time for Heroku server to wake up when first signing up or logging in.</p>
       </div>
-      <div class="row projects">
+      <div class="projects container-fluid">
 
-        <div class="container-fluid eachproject project1 col">
-          <img class="card-img-top image" src="./img/synth.jpg" alt="Tic Tac Toe Project">
-          <div class="middle">
-            <div class="card-body text">
-              <h5 class="card-title">JSynth</h5>
-              <p class="card-text">A synthesizer you can play with your computer keyboard</p>
+        <div class="eachproject topproject project1 row justify-content-between">
+          <div class="col-4 img-container">
+            <img class="project-img" src="./img/synth.jpg" alt="Tic Tac Toe Project">
+          </div>
+          <div class="col-7">
+              <h3 class="card-title">JSynth</h3>
+              <p class="card-text">
+                A synthesizer you can play with your computer keyboard. JSynth
+                utilizes the Web Audio API, tunajs to make a fully functional, adjustable
+                synthesizer. The goal with this project was to make a fun music tool that is
+                intuitive and easy to use. JSynth saves your settings in a Ruby on Rails API.
+              </p>
+              <div class="row">
+                <div class="col">
+              <h5>Future Features:</h5>
+              <ul>
+                <li>Recording</li>
+                <li>More effects</li>
+                <li>Mobile friendly</li>
+              </ul>
+            </div>
+            <div class="col">
               <a href="https://j-gottlieb.github.io/jsynth-jquery-client/" class="btn btn-primary">Go to the site</a>
               <br>
               <br>
-              <a href="https://github.com/j-gottlieb/jsynth-jquery-client" class="btn btn-primary">View the repo</a>
+              <a href="https://github.com/j-gottlieb/jsynth-jquery-client" class="btn btn-primary">View repo</a>
+            </div>
+          </div>
+          </div>
+        </div>
+
+      <div class="eachproject topproject project1 row justify-content-between">
+        <div class="col-4 img-container">
+          <img class="project-img" src="./img/fist-of-five.jpg" alt="Tic Tac Toe Project">
+        </div>
+        <div class="col-7">
+            <h3 class="card-title">Fist 2 Five</h3>
+            <p class="card-text">
+              Fist 2 Five allows you to ask a question to which the answer is a rating
+              from zero to five. All responses are collected and displayed using chartjs.
+              Users can create, view, edit and delete their own surveys. Surveys are saved
+              in a Node Express API.
+            </p>
+            <div class="row">
+              <div class="col">
+                <h5>Future Features:</h5>
+                <ul>
+                  <li>Public and private surveys</li>
+                  <li>Randomly generated links</li>
+                  <li>More flexible interface</li>
+                </ul>
+              </div>
+              <div class="col">
+                <a href="https://dontbin.github.io/project-3-client/" class="btn btn-primary">Go to the site</a>
+                <br>
+                <br>
+                <a href="https://github.com/dontbin/project-3-client" class="btn btn-primary">View client repo</a>
+                <br>
+                <br>
+                <a href="https://github.com/dontbin/project-3-api" class="btn btn-primary">View api repo</a>
+              </div>
             </div>
           </div>
         </div>
 
-      <div class="container-fluid eachproject project1 col">
-        <img class="card-img-top image" src="./img/fist-of-five.jpg" alt="Tic Tac Toe Project">
-        <div class="middle">
-          <div class="card-body text">
-            <h5 class="card-title">Fist 2 Five</h5>
-            <p class="card-text">Create and respond to surveys. Results are shown in charts.</p>
-            <a href="https://dontbin.github.io/project-3-client/" class="btn btn-primary">Go to the site</a>
-            <br>
-            <br>
-            <a href="https://github.com/dontbin/project-3-client" class="btn btn-primary">View the client repo</a>
-            <br>
-            <br>
-            <a href="https://github.com/dontbin/project-3-api" class="btn btn-primary">View the api repo</a>
+    <div class="eachproject topproject project1 row justify-content-between">
+      <div class="col-4 img-container">
+        <img class="project-img" src="./img/practicing-music.jpg" alt="Practice Track Pro Project">
+      </div>
+        <div class="col-7">
+          <h3 class="card-title">Practice Track Pro</h3>
+          <p class="card-text">
+            Track how much you practice, set goals and view progress. PTP uses the Progressbar library
+             to visualize your progress, making practicing less of a chore and more fun.
+             Goals and practices are stored in a Ruby on Rails API.
+          </p>
+          <div class="row">
+            <div class="col">
+              <h5>Future Features:</h5>
+              <ul>
+                <li>Record practices</li>
+                <li>Public practice leaderboard</li>
+                <li>Personal accountability feature</li>
+              </ul>
+            </div>
+            <div class="col">
+              <a href="https://j-gottlieb.github.io/Practice-Track-Pro-Client/" class="btn btn-primary">Go to the site</a>
+              <br>
+              <br>
+              <a href="https://github.com/j-gottlieb/Practice-Track-Pro-Client" class="btn btn-primary">View client repo</a>
+              <br>
+              <br>
+              <a href="https://github.com/j-gottlieb/Practice-Track-Pro-api" class="btn btn-primary">View api repo</a>
+            </div>
           </div>
         </div>
       </div>
 
-    <div class="container-fluid eachproject project2 col">
-      <img class="card-img-top image" src="./img/practicing-music.jpg" alt="Practice Track Pro Project">
-        <div class="middle">
-        <div class="card-body text">
-          <h5 class="card-title">Practice Track Pro</h5>
-          <p class="card-text">Track how much you practice, set goals and view progress</p>
-          <a href="https://j-gottlieb.github.io/Practice-Track-Pro-Client/" class="btn btn-primary">Go to the site</a>
-          <br>
-          <br>
-          <a href="https://github.com/j-gottlieb/Practice-Track-Pro-Client" class="btn btn-primary">View the client repo</a>
-          <br>
-          <br>
-          <a href="https://github.com/j-gottlieb/Practice-Track-Pro-api" class="btn btn-primary">View the api repo</a>
-        </div>
-      </div>
     </div>
 
-      <!-- <div class="container-fluid eachproject project1 col">
-        <img class="card-img-top image" src="./img/portfolio/fullsize/tic-tac-toe.svg.png" alt="Tic Tac Toe Project">
-        <div class="middle">
-          <div class="card-body text">
-            <h5 class="card-title">Tic Tac Toe</h5>
-            <p class="card-text">Single-page app for playing tic tac toe</p>
-            <a href="https://j-gottlieb.github.io/tic-tac-toe-client/" class="btn btn-primary">Go to the site</a>
-            <br>
-            <br>
-            <a href="https://github.com/j-gottlieb/tic-tac-toe-client" class="btn btn-primary">View the repo</a>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-
-  </div>
     </section>
 
     <section id="contact">

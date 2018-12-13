@@ -13,8 +13,15 @@
    border-radius: 20px;
  }
 
+ .project-img {
+   width: 100%;
+   border-radius: 10px;
+   padding: 0;
+ }
+
  .projects {
    padding-bottom: 30px;
+   padding-top: 30px;
    background-color: #79b5f2;
  }
 
@@ -23,7 +30,6 @@
  }
 
  .eachproject {
-   width: 28%;
    background: white;
    margin: 20px;
  }
@@ -31,7 +37,6 @@
  .project1, .project2 {
    padding: 15px;
     position: relative;
-    width: 50%;
 }
 
 .image {
